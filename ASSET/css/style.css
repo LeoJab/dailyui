@@ -1,0 +1,148 @@
+:root {
+    --Noir: #3C3C3C;
+    --Bleu: #009DFF;
+    --Gris: #F8F8F8;
+}
+
+#allIndex {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+html, body {
+    height: 100%;
+    background: var(--Gris);
+}
+
+#menuNav h1, #menuNav  h2, #menuNav  h3, 
+#menuNav  h4, #menuNav  h5, #menuNav  h6, 
+#menuNav  p, #menuNav  a, #menuNav  li 
+{
+    text-decoration: none;
+    font-family: 'Farro';
+    color: var(--Noir);
+    margin: 0;
+    padding: 0;
+}
+
+#menuBas h1, #menuBas  h2, #menuBas  h3, 
+#menuBas  h4, #menuBas  h5, #menuBas  h6, 
+#menuBas  p, #menuBas  a, #menuBas  li 
+{
+    text-decoration: none;
+    font-family: 'Farro';
+    color: var(--Noir);
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.blue {
+    color: var(--Bleu) !important;
+}
+
+/* ----- MenuNav ----- */
+#menuNav {
+    width: 20%;
+    border-right: 1.5px solid var(--Noir);
+    background: white;
+}
+
+#menuNav h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+#menuNav li {
+    text-wrap: nowrap;
+    overflow: hidden;
+    border-top: 1.5px solid var(--Noir);
+    padding: 20px 5px;
+}
+
+#menuNav li:hover {
+    background: var(--Gris);
+}
+
+#menuNav a {
+    font-size: 20px;
+}
+
+/* ----- Contenu ----- */
+#indexContenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 0 30px;
+    width: 100%;
+    background: var(--Gris);
+}
+
+#indexContenu #integration {
+    width: 120%;
+    height: 1200px;
+    transform: scale(0.75);
+    overflow: scroll;
+}
+
+#indexContenu #menuBas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    height: 20%;
+    margin-bottom: 20px;
+}
+
+#indexContenu #menuBas .prompt {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#indexContenu #menuBas .nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    border: 1.5px solid var(--Noir);
+    border-radius: 25px;
+}
+
+#indexContenu #menuBas .nav p {
+    font-size: 28px;
+}
+
+#indexContenu #menuBas .nav a svg {
+    width: 34px;
+    height: 34px;
+}
+
+#indexContenu #menuBas .liens p {
+    font-size: 18px;
+}
+
+#indexContenu #menuBas .liens {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#indexContenu #menuBas .liens a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+#indexContenu #menuBas .liens a svg {
+    width: 18px;
+    height: 18px;
+}

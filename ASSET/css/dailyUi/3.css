@@ -1,0 +1,194 @@
+:root {
+    --Jaune: #FFC517;
+    --Orange: #FF4B3D;
+    --Violet: #7738C7;
+}
+
+#all3 h1, #all3 h2, #all3 h3, #all3 h4, #all3 h5, #all3h6, #all3 p, #all3 a, #all3 li {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+#all3 #header {
+    background: radial-gradient(circle at 26%, rgba(119,56,199,1) 4%, rgba(23,29,143,1) 100%);
+    padding-bottom: 150px;
+}
+
+#all3 #header #nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 35px;
+}
+
+#all3 #header #nav #title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#all3 #header #nav #title h1 {
+    font-family: 'Alumni Sans';
+    font-size: 64px;
+    color: var(--Orange);
+    font-weight: bold;
+}
+
+#all3 #header #nav #title h2 {
+    font-family: 'Advent Pro';
+    font-size: 30px;
+    color: var(--Jaune);
+    font-weight: 300;
+}
+
+#all3 #header #nav p {
+    font-family: 'Advent Pro';
+    font-size: 30px;
+    color: var(--Jaune);
+    font-weight: 300;
+}
+
+#all3 #imageText {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+    margin: 150px 150px 0 150px;
+}
+
+#all3 #textBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#all3 #text {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+}
+
+#all3 #imageText h3 {
+    font-family: 'Advent Pro';
+    font-size: 65px;
+    color: var(--Jaune);
+    font-weight: 500;
+}
+
+#all3 #imageText #duo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#all3 #imageText h1 {
+    font-family: 'Alumni Sans';
+    font-size: 110px;
+    color: var(--Orange);
+    font-weight: 900;
+}
+
+#all3 #imageText #duo #with {
+    font-size: 40px;
+    font-weight: 200;
+    padding-bottom: 30px;
+}
+
+#all3 #imageText #btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 13px;
+    background-color: var(--Jaune);
+    border-radius: 15px;
+    width: 60%;
+    padding: 10px 34px;
+}
+
+#all3 #imageText #btn p {
+    font-family: 'Alumni Sans';
+    font-size: 60px;
+    color: var(--Violet);
+    font-weight: 600;
+}
+
+#all3 #imageText #btn img {
+    width: 57px;
+    height: 57px;
+}
+
+#all3 #contenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: radial-gradient(circle, rgba(255,197,23,1) 20%, rgba(255,172,23,1) 100%);;
+    padding: 50px 0;
+}
+
+#all3 #contenu .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    background: radial-gradient(circle, rgba(119,56,199,1) 4%, rgba(23,29,143,1) 100%);
+    width: 430px;
+    height: 259px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#all3 #contenu .card img {
+    width: 230px;
+    height: 230px;
+}
+
+#all3 #contenu .card #calendrier {
+    position: relative;
+    top: -65px;
+    left: 60px;
+}
+
+#all3 #contenu .card #tableau {
+    position: relative;
+    top: -55px;
+    left: 10px;
+}
+
+#all3 #contenu .card .allText {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#all3 #contenu .card .allText .how {
+    font-family: 'Advent Pro';
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    color: var(--Jaune);
+    font-size: 20px;
+    font-weight: 200;
+}
+
+#all3 #contenu .card .allText .text {
+    font-family: 'Alumni Sans';
+    color: var(--Jaune);
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#all3 #contenu .card .allText .programme {
+    text-align: end;
+}
+
+#all3 #contenu .card .allText .check {
+    text-align: center;
+}
+
+#all3 #contenu .card .allText .cible {
+    text-align: start;
+}

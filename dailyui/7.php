@@ -1,0 +1,1 @@
+<?php $prompt="Prompt: Settings" ?>

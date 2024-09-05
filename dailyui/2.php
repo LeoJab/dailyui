@@ -1,0 +1,1 @@
+<?php $prompt="Prompt: Credit Card Checkout" ?>

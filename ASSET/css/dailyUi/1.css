@@ -1,0 +1,223 @@
+:root {
+    --BleuClaire1: #385175;
+    --BleuFonce1: #1D324C;
+    --Gris1: #c5c5c5;
+    --Bleu1: #35A0F8;
+}
+
+#all1 h1, #all1 p, #all1 a {
+    font-family: 'Mohave';
+    margin: 0;
+    padding: 0;
+}
+
+#all1 {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--BleuClaire1);
+}
+
+#all1 .none {
+    display: none !important;
+}
+
+/* ---------- GAUCHE ----------*/
+#all1 #gauche {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+}
+
+#all1 #gauche #title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+#all1 #gauche #title:nth-child(1) {
+    text-align: start;
+}
+
+#all1 #gauche #title h1 {
+    font-size: 80px;
+    font-weight: 600;
+}
+
+#all1 #gauche #title p {
+    position: relative;
+    top: -20px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+#all1 #gauche #flower {
+    display: flex;
+    justify-content: end;
+}
+
+/* ---------- DROITE ----------*/
+#all1 #droite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    background-color: white;
+    border-radius: 50px 0 0 50px;
+    padding: 50px 0;
+}
+
+#all1 #register, #all1 #login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#all1 #droite .allForm{
+    width: 30%;
+    border-bottom: 1px solid var(--Gris1);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#all1 #droite .registerLogin {
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    font-weight: lighter;
+    color: var(--BleuFonce1);
+    width: 30%;
+    cursor: pointer;
+}
+
+#all1 #droite .registerLogin .active {
+    font-weight: 500 !important;
+    border-bottom: 1.5px solid var(--BleuFonce1);
+}
+
+#all1 #droite .registerLogin p {
+    width: 50%;
+    text-align: center;
+}
+
+#all1 #droite form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#all1 #droite form div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#all1 #droite form label {
+    font-family: 'Mohave';
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 10px;
+    color: var(--BleuFonce1);
+    margin-top: 15px;
+}
+
+#all1 #droite form input {
+    font-family: 'Mohave';
+    font-size: 28px;
+    border: 2px solid var(--BleuFonce1);
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+
+#all1 #droite form #conditions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px !important;
+    font-weight: 200 !important;
+    margin-top: 20px;
+}
+
+#all1 #droite form #conditions input {
+    font-size: 16px !important;
+    font-weight: 200 !important;
+}
+
+#all1 #droite form #conditions label {
+    font-size: 16px !important;
+    font-weight: 200 !important;
+    margin: 0;
+}
+
+#all1 #droite form #conditions label a {
+    color: var(--Bleu1);
+    text-decoration: underline;
+}
+
+#all1 #droite form button {
+    background-color: var(--BleuFonce1);
+    border: none;
+    font-family: 'Mohave';
+    font-size: 28px;
+    font-weight: 200;
+    padding: 11px 26px;
+    border-radius: 10px;
+    color: white;
+    margin: 30px 0;
+}
+
+#all1 #droite #login form button {
+    margin-top: 195px;
+}
+
+#all1 #droite .allForm .account {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 18px;
+    color: var(--Gris1);
+    gap: 4px;
+}
+
+#all1 #droite .allForm .account a {
+    color: var(--BleuFonce1);
+    text-decoration: underline;
+}
+
+#all1 #droite .other {
+    color: var(--Gris1);
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#all1 #droite .other p {
+    font-size: 18px;
+}
+
+#all1 #droite .other .google {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid var(--BleuFonce1);
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+
+#all1 #droite .other .google img {
+    width: 45px;
+    height: 45px;
+}
+
+#all1 #droite .other .google p {
+    font-size: 24px;
+    color: var(--BleuFonce1);
+}

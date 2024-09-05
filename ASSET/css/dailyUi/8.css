@@ -1,0 +1,120 @@
+:root {
+    --Jaune: #FFC517;
+    --Orange: #FF4B3D;
+    --Violet: #7738C7;
+}
+
+#all8 h1, #all8 h2, #all8 h3, #all8 h4, #all8 h5, #all8h6, #all8 p, #all8 a, #all8 li {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+#all8 #header {
+    background: radial-gradient(circle at 26%, rgba(119,56,199,1) 4%, rgba(23,29,143,1) 100%);
+    padding-bottom: 150px;
+}
+
+#all8 #header #nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 35px;
+}
+
+#all8 #header #nav #title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#all8 #header #nav #title h1 {
+    font-family: 'Alumni Sans';
+    font-size: 64px;
+    color: var(--Orange);
+    font-weight: bold;
+}
+
+#all8 #header #nav #title h2 {
+    font-family: 'Advent Pro';
+    font-size: 30px;
+    color: var(--Jaune);
+    font-weight: 300;
+}
+
+#all8 #header #nav p {
+    font-family: 'Advent Pro';
+    font-size: 30px;
+    color: var(--Jaune);
+    font-weight: 300;
+}
+
+#all8 #imageText {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+    margin: 50px 150px 0 150px;
+}
+
+#all8 #textBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#all8 #text {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+}
+
+#all8 #imageText #text h3 {
+    font-family: 'Advent Pro';
+    font-size: 65px;
+    color: var(--Jaune);
+    font-weight: 500;
+}
+
+#all8 #imageText #text h1 {
+    font-family: 'Alumni Sans';
+    font-size: 400px;
+    color: var(--Orange);
+    font-weight: 900;
+}
+
+#all8 #imageText #text #error {
+    position: relative;
+    top: 140px;
+    font-size: 120px;
+    font-weight: 300;
+}
+
+#all8 #imageText #text #page {
+    position: relative;
+    top: -120px;
+    font-size: 60px;
+    font-weight: 100;
+}
+
+#all8 #imageText #btn {
+    position: relative;
+    top: -110px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 13px;
+    background-color: var(--Jaune);
+    border-radius: 15px;
+    width: 55%;
+    padding: 10px 34px;
+}
+
+#all8 #imageText #btn p {
+    font-family: 'Alumni Sans';
+    font-size: 60px;
+    color: var(--Violet);
+    font-weight: 600;
+}
