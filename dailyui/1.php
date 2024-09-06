@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" href="ASSET/css/dailyui/1.css">
 
-<script src="ASSET/js/1.js"></script>
+<script src="ASSET/js/dailyUi/1.js"></script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +17,7 @@
             </div>
         </div>
         <div id="flower">
-            <img src="ASSET/img/1/flower.png" alt="">
+            <img src="ASSET/img/dailyUi/1/flower.png" alt="">
         </div>
     </div>
     <div id="droite">
@@ -55,7 +55,7 @@
             <div class="other">
                 <p>or</p>
                 <div class="google">
-                    <img src="ASSET/img/1/googleLogo.png" alt="Logo de google">
+                    <img src="ASSET/img/1/dailyUi/googleLogo.png" alt="Logo de google">
                     <p>Sign Up with Google</p>
                 </div>
             </div>

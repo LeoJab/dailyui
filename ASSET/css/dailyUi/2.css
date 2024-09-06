@@ -1,0 +1,344 @@
+#all2 p, #all2 h1, #all2 h2, #all2 h3 {
+    font-family: 'Overpass';
+    padding: 0;
+    margin: 0;
+}
+
+#all2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: radial-gradient(circle, rgba(246,246,246,1) 70%, rgba(217,217,217,1) 100%);
+    padding: 30px 0;
+}
+
+#all2 .mobile {
+    width: 20%;
+    background-color: white;
+    padding: 5px 15px 15px 15px;
+    border-radius: 20px;
+}
+
+#all2 .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#all2 .top p {
+    font-size: 20px;
+}
+
+#all2 .top .icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+#all2 .back {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+}
+
+#all2 .back svg {
+    width: 18px;
+    height: 18px;
+}
+
+#all2 .back  {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+#all2 h1 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#all2 .panier {
+    border: 1px solid #9E9E9E;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px #878787;
+    padding: 15px;
+}
+
+#all2 .panier .allProducts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 250px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+#all2 .panier .product img {
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    width: 90px;
+    height: 90px;
+}
+
+#all2 .panier .product {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+#all2 .panier .product h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#all2 .panier .product p {
+    font-size: 22px;
+    font-weight: 200;
+}
+
+#all2 .panier .product .compteur {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    padding: 4px;
+    gap: 5px;
+    width: 40%;
+}
+
+#all2 .panier .product .number {
+    background-color: white;
+    padding: 0 5px;
+}
+
+#all2 .panier .product .plus, #all2 .panier .product .moins {
+    cursor: pointer;
+}
+
+#all2 .panier .totalDetails {
+    margin-top: 10px;
+}
+
+#all2 .panier .totalDetails .total {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: 400;
+    gap: 5px;
+}
+
+#all2 .panier .totalDetails .total p:nth-child(1) {
+    font-weight: 600;
+}
+
+#all2 .panier .totalDetails .total {
+    font-weight: 200;
+}
+
+#all2 .panier .totalDetails .details {
+    font-size: 14px;
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+#all2 .panier .totalDetails .details .products {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+#all2 .panier .totalDetails .details .tva {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+#all2 .panier .totalDetails .details .delivery {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+#all2 .panier .totalDetails .details .products p:nth-child(1) {
+    font-weight: 400;
+}
+
+#all2 .panier .totalDetails .details .tva p:nth-child(1) {
+    font-weight: 400;
+}
+
+#all2 .panier .totalDetails .details .delivery p:nth-child(1) {
+    font-weight: 400;
+}
+
+#all2 .payment .method {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F6F6F6;
+    border: 1px solid #9E9E9E;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#all2 .payment .active {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #9E9E9E;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px #878787;
+    padding: 5px;
+}
+
+#all2 .payment {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#all2 .payment .method .card, 
+#all2 .payment .method .google, 
+#all2 .payment .method .apple {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+#all2 .payment svg, #all2 .payment img {
+    width: 40px;
+    height: 40px;
+}
+
+#all2 .payment p {
+    font-size: 24px;
+    font-weight: 200;
+}
+
+#all2 .payment span {
+    border: 1px double #9E9E9E;
+    border-radius: 100%;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+}
+
+#all2 .payment .active span {
+    border: 1px double #9E9E9E;
+    border-radius: 100%;
+    background-color: #9E9E9E;
+    width: 30px;
+    height: 30px;
+}
+
+#all2 .payment .btn {
+    background-color: black;
+    color: white;
+    font-size: 26px;
+    font-weight: 200;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#all2 .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    height: 90%;
+}
+
+#all2 .card .title {
+    font-size: 14px;
+    font-weight: 200;
+    margin: 10px 0;
+}
+
+#all2 .card .preview {
+    background: linear-gradient(180deg, rgba(92,206,255,1) 0%, rgba(0,138,197,1) 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 300;
+    width: 100%;
+}
+
+#all2 .card .preview .logo {
+    text-align: end;
+}
+
+#all2 .card .preview .logo img {
+    width: 62px;
+}
+
+#all2 .card .preview .cardNumber {
+    font-size: 30px;
+}
+
+#all2 .card .preview .cardInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#all2 .card form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    font-family: 'Overpass';
+    margin-top: 20px;
+}
+
+#all2 .card form label {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+#all2 .card form input {
+    font-size: 30px;
+    padding: 5px;
+    border: 1px solid #9E9E9E;
+    border-radius: 5px;
+}
+
+#all2 .card form .cardInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#all2 .card form .cardInfo div {
+    width: 45%;
+}
+
+#all2 .card form div {
+    display: flex;
+    flex-direction: column;
+}
+
+#all2 .card .btn {
+    background-color: black;
+    color: white;
+    font-size: 26px;
+    font-weight: 200;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: auto;
+    text-align: center;
+    width: 100%;
+}

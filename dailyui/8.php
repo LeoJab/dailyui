@@ -16,7 +16,7 @@
             <p>Login</p>
         </div>
         <div id="imageText">
-            <img src="ASSET/img/3/commencez.png" alt="Logo du site">
+            <img src="ASSET/img/dailyUi/3/commencez.png" alt="Logo du site">
             <div id="textBtn">
                 <div id="text">
                     <h3 id="error">error</h3>

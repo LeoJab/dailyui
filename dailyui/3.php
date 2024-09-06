@@ -16,7 +16,7 @@
             <p>Login</p>
         </div>
         <div id="imageText">
-            <img src="ASSET/img/3/commencez.png" alt="Logo du site">
+            <img src="ASSET/img/dailyUi/3/commencez.png" alt="Logo du site">
             <div id="textBtn">
                 <div id="text">
                     <h3>Propulse your capital</h3>
@@ -27,14 +27,14 @@
                 </div>
                 <div id="btn">
                     <p>LET'S INVEST</p>
-                    <img src="ASSET/img/3/navette.png" alt="Fusée violette">
+                    <img src="ASSET/img/dailyUi/3/navette.png" alt="Fusée violette">
                 </div>
             </div>
         </div>
     </div>
     <div id="contenu">
         <div class="card">
-            <img id="calendrier" src="ASSET/img/3/programme.png" alt="Calendrier">
+            <img id="calendrier" src="ASSET/img/dailyUi/3/programme.png" alt="Calendrier">
             <div class="allText">
                 <div class="how">
                     <p>how it york</p>
@@ -48,7 +48,7 @@
             </div>
         </div>
         <div class="card">
-            <img id="tableau" src="ASSET/img/3/presentation.png" alt="Tableau">
+            <img id="tableau" src="ASSET/img/dailyUi/3/presentation.png" alt="Tableau">
             <div class="allText">
                 <div class="how">
                     <p>how it york</p>
@@ -62,7 +62,7 @@
             </div>
         </div>
         <div class="card">
-            <img id="cible" src="ASSET/img/3/cibles.png" alt="Cible">
+            <img id="cible" src="ASSET/img/dailyUi/3/cibles.png" alt="Cible">
             <div class="allText">
                 <div class="how">
                     <p>how it york</p>
