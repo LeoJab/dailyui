@@ -1,0 +1,262 @@
+/* ---------- GENERAL ---------- */
+:root {
+    --Jaune: #FFC517;
+    --Orange: #FF4B3D;
+    --Violet: #7738C7;
+}
+
+#all5 h1, #all5 h2, #all5 h3, #all5 h4, #all5 h5, #all5h6, #all5 p, #all5 a, #all5 li {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+#all5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    background: radial-gradient(circle, rgba(246,246,246,1) 70%, rgba(217,217,217,1) 100%);
+    padding: 30px 0;
+}
+
+#all5 .mobile {
+    width: 22.5%;
+    border-radius: 20px;
+    background: linear-gradient(130deg, rgba(23,29,143,1) 10%, rgba(119,56,199,1) 30%, rgba(23,29,143,1) 50%);
+}
+
+/* ---------- APP ICONS ---------- */
+#all5 .appIcons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#all5 .appIcons .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px;
+}
+
+#all5 .appIcons img {
+    width: 125px;
+    height: 125px;
+}
+
+#all5 .appIcons .purple {
+    width: 160px;
+    height: 160px;
+    background: linear-gradient(180deg, rgba(119,56,199,1) 10%, rgba(23,29,143,1) 100%);
+}
+
+#all5 .appIcons .orange {
+    width: 160px;
+    height: 160px;
+    background: linear-gradient(180deg, rgba(254,172,124,1) 0%, rgba(255,172,23,1) 100%);
+}
+
+/* ---------- TOP ---------- */
+#all5 .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 5px 15px;
+}
+
+#all5 .top p {
+    font-size: 20px;
+    font-family: 'Alumni Sans';
+}
+
+#all5 .top .icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+/* ---------- HEADER ---------- */
+#all5 #header {
+    margin-top: 60px;
+}
+
+#all5 #header #nav {
+    text-align: center;
+    margin: 0 35px;
+}
+
+#all5 #header #nav #title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#all5 #header #nav #title h1 {
+    font-family: 'Alumni Sans';
+    font-size: 50px;
+    color: var(--Orange);
+    font-weight: bold;
+}
+
+#all5 #header #nav #title h2 {
+    font-family: 'Advent Pro';
+    font-size: 30px;
+    color: var(--Jaune);
+    font-weight: 300;
+}
+
+#all5 #imageText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 90px;
+    margin: 90px 0;
+}
+
+#all5 #imageText img {
+    width: 247px;
+    height: 247px;
+}
+
+#all5 #textBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#all5 #text {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+}
+
+#all5 #imageText h3 {
+    font-family: 'Advent Pro';
+    font-size: 45px;
+    color: var(--Jaune);
+    font-weight: 500;
+}
+
+#all5 #imageText #duo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#all5 #imageText h1 {
+    font-family: 'Alumni Sans';
+    font-size: 90px;
+    color: var(--Orange);
+    font-weight: 900;
+}
+
+#all5 #imageText #duo #with {
+    font-size: 30px;
+    font-weight: 200;
+    padding-bottom: 30px;
+}
+
+#all5 #imageText #btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 13px;
+    background-color: var(--Jaune);
+    border-radius: 15px;
+    width: 70%;
+    padding: 10px 34px;
+}
+
+#all5 #imageText #btn p {
+    font-family: 'Alumni Sans';
+    font-size: 48px;
+    color: var(--Violet);
+    font-weight: 600;
+}
+
+#all5 #imageText #btn img {
+    width: 45.6px;
+    height: 45.6px;
+}
+
+/* ---------- CONTENU ---------- */
+#all5 #contenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    background: radial-gradient(circle, rgba(255,197,23,1) 20%, rgba(255,172,23,1) 100%);;
+    padding: 50px 0;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+}
+
+#all5 #contenu .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    background: radial-gradient(circle, rgba(119,56,199,1) 4%, rgba(23,29,143,1) 100%);
+    width: 340px;
+    height: 190px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#all5 #contenu .card img {
+    width: 200px;
+    height: 200px;
+}
+
+#all5 #contenu .card #calendrier {
+    position: relative;
+    top: -40px;
+    left: 90px;
+}
+
+#all5 #contenu .card #tableau {
+    position: relative;
+    top: -45px;
+    left: 40px;
+}
+
+#all5 #contenu .card .allText {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#all5 #contenu .card .allText .how {
+    font-family: 'Advent Pro';
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    color: var(--Jaune);
+    font-size: 18px;
+    font-weight: 200;
+}
+
+#all5 #contenu .card .allText .text {
+    font-family: 'Alumni Sans';
+    color: var(--Jaune);
+    font-size: 54px;
+    font-weight: bold;
+}
+
+#all5 #contenu .card .allText .programme {
+    text-align: end;
+}
+
+#all5 #contenu .card .allText .check {
+    text-align: center;
+}
+
+#all5 #contenu .card .allText .cible {
+    text-align: start;
+}

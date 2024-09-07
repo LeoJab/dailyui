@@ -1,0 +1,190 @@
+/* ---------- GENERAL ---------- */
+:root {
+    --Bleu: #35A0F8;
+}
+
+#all4 p, #all4 h1, #all4 h2, #all4 th, #all4 td {
+    padding: 0;
+    margin: 0;
+    font-family: 'Alumni Sans';
+}
+
+#all4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: radial-gradient(circle, rgba(246,246,246,1) 70%, rgba(217,217,217,1) 100%);
+    padding: 30px 0;
+}
+
+#all4 .mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    background-color: white;
+    padding: 5px 15px 15px 15px;
+    border-radius: 20px;
+}
+
+/* ---------- TOP ---------- */
+#all4 .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#all4 .top p {
+    font-size: 20px;
+    font-family: 'Overpass' !important;
+}
+
+#all4 .top .icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+/* ---------- BTN BACK ---------- */
+#all4 .backMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0;
+    width: 100%;
+}
+
+#all4 .back {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#all4 .back p {
+    font-family: 'Overpass' !important;
+}
+
+#all4 .back svg {
+    width: 18px;
+    height: 18px;
+}
+
+#all4 .back  {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+/* --------- ADD INGREDIENT ---------- */
+#all4 .addIngredient {
+    margin-top: 20px;
+}
+
+#all4 .addIngredient form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#all4 .addIngredient form select, #all4 .addIngredient form input {
+    padding: 2px 6px;
+    border-radius: 5px;
+    font-family: 'Alumni Sans';
+    font-size: 22px;
+}
+
+#all4 .addIngredient form input, #all4 .addIngredient form #unit {
+    width: 15%;
+}
+
+#all4 .addIngredient form #ingredient {
+    width: 60%;
+}
+
+#all4 .addIngredient form button {
+    background: var(--Bleu);
+    color: white;
+    padding: 4px 15px;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+/* --------- LIST INGREDIENT ---------- */
+#all4 .listIngredient {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#all4 .listIngredient table {
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#all4 .listIngredient table thead {
+    border-bottom: 0.5px solid rgb(126, 126, 126);
+}
+
+#all4 .listIngredient table th {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+#all4 .listIngredient table td {
+    font-weight: 200;
+    font-size: 20px;
+}
+
+/* ---------- STATS GRAPHIQUE --------- */
+#all4 .statsCalorie {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#all4 .statsCalorie h2 {
+    text-align: start;
+    margin-bottom: 5px;
+}
+
+#all4 .statsCalorie .totalGraphique {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#all4 .statsCalorie .total {
+    margin-left: 10px;
+}
+
+#all4 .statsCalorie .total td {
+    font-size: 20px;
+    margin: 0 6px !important;
+}
+
+#all4 .statsCalorie .graphique {
+    border: 0.5px solid black;
+    box-shadow: 0px 0px 8px -2px #000000;
+    border-radius: 15px;
+}
+
+#all4 .statsCalorie .graphique .title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#all4 .statsCalorie button {
+    text-align: center;
+    background: var(--Bleu);
+    color: white;
+    padding: 4px 15px;
+    border-radius: 5px;
+    font-size: 22px;
+    margin-top: 15px;
+}
