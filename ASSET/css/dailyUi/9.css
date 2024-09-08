@@ -1,0 +1,207 @@
+/* ---------- GENERAL -------- */
+:root {
+    --Bleu: #00C8FF;
+}
+
+#all9 p, #all9 h1, #all9 h2 {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Poppins';
+}
+
+#all9 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: radial-gradient(circle, rgba(246,246,246,1) 70%, rgba(217,217,217,1) 100%);
+    padding: 30px 0;
+}
+
+#all9 .mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(19,19,19,1) 29%, rgba(52,52,52,1) 100%);
+    padding: 5px 15px 15px 15px;
+}
+
+/* ---------- TOP ---------- */
+#all9 .header {
+    width: 100%;
+    padding: 5px 15px 15px 15px;
+}
+
+#all9 .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: white;
+}
+
+#all9 .top p {
+    font-size: 20px;
+    font-family: 'Overpass' !important;
+    color: white;
+}
+
+#all9 .top .icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+/* ---------- BTN BACK ---------- */
+#all9 .backMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0;
+    width: 100%;
+    color: white;
+}
+
+#all9 .back {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#all9 .back p {
+    font-family: 'Overpass' !important;
+    color: white;
+}
+
+#all9 .back svg {
+    width: 18px;
+    height: 18px;
+}
+
+#all9 .back  {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+/* --------- CONTENT ---------- */
+#all9 .content {
+    width: 90%;
+}
+
+#all9 .content img {
+    box-shadow: 0px 0px 60px 0px rgba(255,255,255,0.25);
+    max-width: 100%;
+}
+
+#all9 .content .songInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+#all9 .content .songInfo .title {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#all9 .content .songInfo .artist {
+    position: relative;
+    top: -15px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+#all9 .content .songInfo .album {
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    top: -20px;
+}
+
+#all9 .content .allLyrics {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, rgba(141,141,141,1) 0%, rgba(66,66,66,0) 100%);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#all9 .content .allLyrics .iconTitle {
+    display: flex;
+    flex-direction: row;
+    color: #DDDDDD;
+}
+
+#all9 .content .allLyrics .iconTitle svg {
+    width: 24px;
+    height: 24px;
+}
+
+#all9 .content .allLyrics .iconTitle p {
+    font-size: 24px;
+    color: #DDDDDD;
+}
+
+#all9 .content .allLyrics .lyrics p {
+    font-size: 14px;
+    background-image: linear-gradient(180deg, rgba(221,221,221,1) 60%, rgba(153,153,153,0) 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+#all9 .content .progressBar {
+    width: 100%;
+}
+
+#all9 .content .progressBar progress {
+    width: 100%;
+    color: var(--Bleu);
+}
+
+#all9 .content .progressBar .timer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#all9 .content .progressBar .timer p {
+    font-size: 12px;
+}
+
+#all9 .content .iconsBas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+}
+
+#all9 .content .iconsBas svg {
+    width: 28px;
+    height: 28px;
+}
+
+#all9 .content .iconsBas .gauche, #all9 .content .iconsBas .droite {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+#all9 .content .iconsBas .play {
+    background: var(--Bleu);
+    border-radius: 100%;
+    padding: 15px;
+    width: 34px;
+    height: 34px;
+    margin: 0 10px;
+}
+
+#all9 .content .iconsBas .droite .like {
+    color: var(--Bleu);
+    fill: var(--Bleu);
+}
